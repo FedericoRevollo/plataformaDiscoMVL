@@ -1,0 +1,56 @@
+*{      
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(19, 18, 18);
+    color:goldenrod;
+    padding: 45px;
+    font-family:'kanit', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    
+}
+
+.headerTags{
+    color: rgb(112, 83, 9);
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+} 
+
+p {
+    padding: 10px;
+}
+
+ol {
+    padding: 20px;
+    display:inline-block;
+    align-items: center;
+}
+
+a {
+    color: goldenrod; /* Color del enlace */
+    text-decoration: none; /* Opcional: sin subrayado */
+}
+
+a:hover {
+    color: green; /* Mantén el color cuando se pasa el mouse */
+}
+
+div {
+    text-align: center;
+}
+
+.tamGrande {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.alignIzq {
+    text-align: left;
+}
