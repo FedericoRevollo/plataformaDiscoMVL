@@ -63,11 +63,11 @@ a:hover {
 .formClass{
     position: relative; /* Cambiado a 'relative' */
     border-radius: 10px;
-    width: 100%;
-    max-width: 30%;
+    width: 30%;
+    max-width: 50%;
     box-shadow: 0 0 10px;
     margin: 0 auto; /* Centra el elemento horizontalmente */
-    padding:10px;
+    padding: 2%;
     text-align: center;
     background-color: black; /* Asegura que tenga un fondo */
     transform: none; /* Eliminado para evitar conflictos */
