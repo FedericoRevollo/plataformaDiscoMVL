@@ -90,7 +90,7 @@ fieldset {
         margin: 0 auto; /* Centra el elemento horizontalmente */
         padding: 2%;
         text-align: center;
-        background-color: blue; /* Asegura que tenga un fondo */
+        background-color: black; /* Asegura que tenga un fondo */
         transform: none; /* Eliminado para evitar conflictos */
     }
 }
