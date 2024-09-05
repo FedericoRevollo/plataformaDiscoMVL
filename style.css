@@ -79,3 +79,17 @@ fieldset {
     margin: 0 auto;
     box-sizing: border-box; /* Incluye padding y border en el ancho */
 }
+
+@media (max-width: 600px) {
+    .formClass{
+        position: relative; /* Cambiado a 'relative' */
+        border-radius: 10px;
+        width: 60%;
+        max-width: 50%;
+        box-shadow: 0 0 10px;
+        margin: 0 auto; /* Centra el elemento horizontalmente */
+        padding: 2%;
+        text-align: center;
+        background-color: black; /* Asegura que tenga un fondo */
+        transform: none; /* Eliminado para evitar conflictos */
+    }
