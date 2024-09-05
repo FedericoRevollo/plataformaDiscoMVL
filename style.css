@@ -64,11 +64,17 @@ a:hover {
     position: relative; /* Cambiado a 'relative' */
     padding: 30px;
     border-radius: 10px;
-    max-width: 400px;
-    width: 90%;
+    width: 100%;
+    max-width: 50%;
     box-shadow: 0 0 10px;
     margin: 30px auto; /* Centra el elemento horizontalmente */
     text-align: center;
     background-color: black; /* Asegura que tenga un fondo */
     transform: none; /* Eliminado para evitar conflictos */
+}
+
+fieldset {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box; /* Incluye padding y border en el ancho */
 }
