@@ -12,7 +12,11 @@
 </head>
 <body>
     <div>
-        Nuevo Album
+        <h1 class="headerTags">Soda Stereo</h1>
+        <h2 class="headerTags tamGrande">Me verás volver (Hits & +)</h2>
+    </div>
+    <div>
+        <h3 class="titulos">Nuevo Album</h3>
     </div>
     <form action="" class="formClass">
         <fieldset>
@@ -29,11 +33,23 @@
             </div>
             <br>
             <div>
-                <label for="consultas">Consultas:</label>
-                <textarea name="Consultas" id="consultas" rows="20" cols="40" placeholder="Dejanos tu consulta"></textarea>
+                <label for="descripcion">Descripción:</label>
+                <textarea name="Descripcion" id="descripcion" rows="20" cols="40" placeholder="Escribe una breve descripción del album"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="imagenUrl">URL de la imagen del disco:</label>
+                <input type="url" id="imagenUrl" name="imagenUrl" placeholder="Ingresa la URL de tu imagen" required>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Enviar">
             </div>
             <br>
         </fieldset>
     </form>
+    <div class="titulos">
+        <a class="tamGrande" href="./index.html">Volver</a>
+    </div>
 </body>
 </html>

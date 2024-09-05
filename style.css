@@ -42,8 +42,9 @@ a:hover {
     color: green; /* Mantén el color cuando se pasa el mouse */
 }
 
-div {
+.titulos {
     text-align: center;
+    margin: 20px;
 }
 
 .tamGrande {
@@ -60,14 +61,14 @@ div {
 }
 
 .formClass{
-    position:absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-49%, -49%);
+    position: relative; /* Cambiado a 'relative' */
     padding: 30px;
     border-radius: 10px;
     max-width: 400px;
-    width: 90% ;
+    width: 90%;
     box-shadow: 0 0 10px;
-    margin: 30px;
+    margin: 30px auto; /* Centra el elemento horizontalmente */
+    text-align: center;
+    background-color: black; /* Asegura que tenga un fondo */
+    transform: none; /* Eliminado para evitar conflictos */
 }
