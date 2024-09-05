@@ -54,3 +54,20 @@ div {
 .alignIzq {
     text-align: left;
 }
+
+.legendClass{
+    font-weight: bold;
+}
+
+.formClass{
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-49%, -49%);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 90% ;
+    box-shadow: 0 0 10px;
+    margin: 30px;
+}
